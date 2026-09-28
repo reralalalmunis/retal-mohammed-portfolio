@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Professional portfolio for Retal Mohammed, Business Specialist.">
+  <title>Retal Mohammed | Business Specialist</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div class="scroll-progress" aria-hidden="true"><span id="scroll-progress-bar"></span></div>
+
+  <header class="site-header" id="top">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="Retal Mohammed home">
+        <span class="brand-mark" aria-hidden="true">RM</span>
+        <span class="brand-text">Retal Mohammed</span>
+      </a>
+      <div class="header-actions">
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light mode" aria-pressed="false">
+          <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+          <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"></path></svg>
+          <span id="theme-toggle-label">Light mode</span>
+        </button>
+        <button class="text-button" id="load-example" type="button">Load example</button>
+      </div>
+    </div>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main-content" tabindex="-1">
+    <section class="hero" id="home" aria-labelledby="hero-name">
+      <div class="hero-shape hero-shape-one" aria-hidden="true"></div>
+      <div class="hero-shape hero-shape-two" aria-hidden="true"></div>
+      <div class="hero-shape hero-shape-three" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Professional portfolio</p>
+        <h1 id="hero-name"></h1>
+        <p class="hero-title" id="hero-title"></p>
+        <p class="hero-summary" id="hero-summary"></p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#experience">Explore my work <span aria-hidden="true">→</span></a>
+          <span class="location" id="hero-location"></span>
+        </div>
+      </div>
+      <aside class="hero-panel" aria-label="Professional focus">
+        <span class="panel-kicker">Focus</span>
+        <strong>Planning, projects, and informed decisions.</strong>
+        <span class="panel-line" aria-hidden="true"></span>
+        <span>Based in Abha, Saudi Arabia</span>
+      </aside>
+    </section>
+
+    <div class="page-shell">
+      <section class="content-section reveal" id="about" aria-labelledby="about-heading">
+        <div class="section-heading">
+          <p class="eyebrow">Profile</p>
+          <h2 id="about-heading">About me</h2>
+        </div>
+        <article class="about-card card">
+          <div class="section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8ZM4 21a8 8 0 0 1 16 0"></path></svg></div>
+          <p id="about-summary"></p>
+        </article>
+      </section>
+
+      <section class="content-section reveal" id="skills" aria-labelledby="skills-heading">
+        <div class="section-heading section-heading-row">
+          <div><p class="eyebrow">Capabilities</p><h2 id="skills-heading">Skills</h2></div>
+          <p class="section-note">A focused toolkit for structured work.</p>
+        </div>
+        <div class="skills-grid" id="skills-list"></div>
+      </section>
+
+      <section class="content-section reveal" id="experience" aria-labelledby="experience-heading">
+        <div class="section-heading">
+          <p class="eyebrow">Career path</p>
+          <h2 id="experience-heading">Experience</h2>
+        </div>
+        <div class="timeline" id="experience-list"></div>
+      </section>
+
+      <section class="content-section reveal split-section" id="education" aria-labelledby="education-heading">
+        <div class="education-column">
+          <div class="section-heading"><p class="eyebrow">Academic foundation</p><h2 id="education-heading">Education</h2></div>
+          <article class="education-card card" id="education-card"></article>
+        </div>
+        <div class="certifications-column" id="certifications" aria-labelledby="certifications-heading">
+          <div class="section-heading"><p class="eyebrow">Continuous learning</p><h2 id="certifications-heading">Certifications &amp; courses</h2></div>
+          <div class="certification-list card" id="certification-list"></div>
+        </div>
+      </section>
+
+      <section class="content-section reveal" id="portfolio" aria-labelledby="portfolio-heading">
+        <div class="section-heading section-heading-row">
+          <div><p class="eyebrow">Selected work</p><h2 id="portfolio-heading">Portfolio</h2></div>
+          <p class="section-note">A growing collection of digital work.</p>
+        </div>
+        <div class="projects-grid" id="projects-list"></div>
+      </section>
+
+      <section class="content-section reveal languages-section" id="languages" aria-labelledby="languages-heading">
+        <div class="section-heading"><p class="eyebrow">Communication</p><h2 id="languages-heading">Languages</h2></div>
+        <div class="language-list" id="languages-list"></div>
+      </section>
+
+      <section class="content-section reveal" id="contact" aria-labelledby="contact-heading">
+        <div class="contact-card card">
+          <div class="contact-copy">
+            <p class="eyebrow">Get in touch</p>
+            <h2 id="contact-heading">Contact</h2>
+            <p>Direct contact details are intentionally kept private. This form is a placeholder and needs a secure backend or an approved contact channel before it can send messages.</p>
+            <p class="recommendation" id="recommendation"></p>
+          </div>
+          <form class="contact-form" aria-label="Contact form placeholder">
+            <label for="contact-name">Name</label>
+            <input id="contact-name" type="text" placeholder="Contact form unavailable" disabled>
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" rows="3" placeholder="A secure contact channel is not connected" disabled></textarea>
+            <button class="button button-secondary" type="button" disabled>Send message</button>
+          </form>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Retal Mohammed · Business Specialist</p>
+    <p>Your theme preference is saved only in this browser.</p>
+  </footer>
+  <div class="sr-only" id="status-message" aria-live="polite" aria-atomic="true"></div>
+
+  <script src="sample-data/data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
